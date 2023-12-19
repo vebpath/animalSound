@@ -1,0 +1,48 @@
+body {
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+  background-color: lightgray;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  border: 5px solid white;
+}
+
+.img {
+  height: 150px;
+}
+
+main {
+  background-color: white;
+  padding: 20px;
+  margin: 10px 0;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.card{
+  width: 250px;
+  height: 250px;
+  background-color: #164863;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.card.active{
+  background-color: dodgerblue;
+}
+.name{
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+}
